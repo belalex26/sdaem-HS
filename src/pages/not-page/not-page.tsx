@@ -1,12 +1,17 @@
-import React from 'react';
+import Footer from "../../components/footer/footer";
+import Header from "../../components/header/header";
 
 function NotPage() {
   return (
-    <div className="not-page">
-      <h2 className="not-page__title">404</h2>
-      <p className="not-page__text">Упс! Страница не найдена</p>
-      <a className="not-page__link" href="/">На главную</a>
-    </div>
+    <>
+      <Header />
+      <div className="not-page">
+        <h1 className="not-page__title">Ошибка 404</h1>
+        <p className="not-page__text">Возможно, у вас опечатка в адресе страницы, или её просто не существует</p>
+        <a className="not-page__link" href="/">Вернуться на главную</a>
+      </div>
+      <Footer />
+    </>
 
   );
 }

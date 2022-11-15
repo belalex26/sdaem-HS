@@ -1,4 +1,6 @@
 import Logo from '../../components/logo/logo';
+import PayList from '../pay-list/pay-list';
+import SocialBar from '../socail-bar/socail-bar';
 
 function Footer() {
   return (
@@ -7,14 +9,87 @@ function Footer() {
             <div className='footer__info'>
                 <Logo />
                 <p>ИП Шушкевич Андрей Викторович УНП 192602485 Минским горисполкомом 10.02.2016 220068, РБ, г. Минск, ул. Осипенко, 21, кв.23 </p>
-                <a href="+375 29 621 48 33">+375 29 621 48 33</a>, 
+                <a href="+375296214833">+375 29 621 48 33,</a>
                 <a href='sdaem@sdaem.by'>sdaem@sdaem.by</a>
                 <p>Режим работы: 08:00-22:00</p>
             </div>
-            <div className='footer__catalog'></div>
-            <div className='footer__fast-filter'></div>
-            <div className='footer__social-bar'></div>
-            <div className='footer__pay-info'></div>
+            <ul className='footer__catalog'>
+              <li className='footer__catalog-item'>
+                <a className='footer__catalog-item-link' href="#">Коттеджи и усадьбы</a>
+              </li>
+              <li className='footer__catalog-item'>
+                <a className='footer__catalog-item-link' href="#">Бани и сауны</a>
+              </li>
+              <li className='footer__catalog-item'>
+                <a className='footer__catalog-item-link' href="#">Авто на прокат</a>
+              </li>
+            </ul>
+            <div className='footer__fast-filter'>
+              <p className='footer__fast-filter-title'>
+                Квартиры
+              </p>
+              <ul className='footer__fast-filter-list'>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Минске
+                  </a>
+                </li>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Витебске
+                  </a>
+                </li>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Гомеле
+                  </a>
+                </li>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Гродно
+                  </a>
+                </li>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Бресте
+                  </a>
+                </li>
+                <li className='footer__fast-filter-item'>
+                  <a className='footer__fast-filter-item-link' href="#">
+                    Квартиры в Могилево
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul className='footer__nav-bar'>
+              <li className='footer__nav-bar-item'>
+                <a className='footer__nav-bar-item-link' href="#">
+                  Новости
+                </a>
+              </li>
+              <li className='footer__nav-bar-item'>
+                <a className='footer__nav-bar-item-link' href="#">
+                  Размещение и тарифы 
+                </a>
+              </li>
+              <li className='footer__nav-bar-item'>
+                <a className='footer__nav-bar-item-link' href="#">
+                  Объявления на карте
+                </a>
+              </li>
+              <li className='footer__nav-bar-item'>
+                <a className='footer__nav-bar-item-link' href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <div className='footer__social-bar'>
+              <p className='footer__social-bar-title'>Мы в соцсетях</p>
+              <SocialBar />
+            </div>
+            <div className='footer__pay-info'>
+              <PayList />
+            </div>
         </div>
     </footer>
 
