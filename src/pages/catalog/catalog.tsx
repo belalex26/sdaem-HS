@@ -2,9 +2,10 @@ import React from 'react';
 
 function Catalog() {
   return (
-    <div className="not-page">
-      <h2 className="not-page__title">это каталог</h2>
-    </div>
+    <main className="catalog">
+      <h1 className="catalog__title">Каталог</h1>
+      
+    </main>
 
   );
 }

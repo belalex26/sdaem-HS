@@ -1,6 +1,6 @@
 import Logo from '../../components/logo/logo';
 import PayList from '../pay-list/pay-list';
-import SocialBar from '../socail-bar/socail-bar';
+import SocialBar from '../social-bar/social-bar';
 
 function Footer() {
   return (

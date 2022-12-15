@@ -1,0 +1,277 @@
+.manual__promo {
+    background: url("../../assets/img/BG_3\ 1920.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    margin-bottom: 217px;
+}
+
+.manual__promo-title {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 123px;
+    padding-left: 91px;
+    
+    &::after {
+        position: absolute;
+        top: -85px;
+        right: -20px;
+        content: "";
+        width: 850px;
+        height: 650px;
+        background: url("../../assets/img/iMac\ 1.png") no-repeat center;
+    }
+}
+
+.manual__promo-text {
+    font-weight: 500;
+    font-size: 16px;
+    width: 438px;
+    line-height: 19.5px;
+    margin-left: 91px;
+    margin-top: 27px;
+}
+
+.manual__rates-card {
+    display: flex;
+    margin-top: 54px;
+    min-height: 672px;
+}
+
+.manual__rates-card--right {
+    flex-direction: row-reverse;
+}
+
+.manual__rates-card-subtitle {
+    text-transform: uppercase;
+    background: linear-gradient(#9D94FF, #6B50E9);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.manual__rates-card-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.manual__rates-card-img {
+    position: relative;
+    width: 70%;
+}
+
+.manual__rates-card-img img {
+    position: absolute;
+    display: block;
+    left: 208px;
+    top: 75px;
+
+    &::before {
+        content: "ТОР";
+        position: absolute;
+        width: 672px;
+        height: 407px;
+        background: linear-gradient(#9D94FF, #6B50E9);
+        opacity: 0.1;
+        border-radius: 0 40px 40px 0;
+        font-size: 50px;
+    }
+
+    &::after {
+        content: "Top";
+        position: absolute;
+        width: 101px;
+        height: 65px;
+        background: #0DBB41;
+        border-radius: 40px 0 40px 40px;
+        top: 70px;
+        left: 250px;
+    }
+}
+
+// lift
+
+.manual__lift {
+    background-color: rgba(102, 78, 249, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manual__lift-subtitle {
+    text-transform: uppercase;
+    background: linear-gradient(#9D94FF, #6B50E9);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.manual__lift-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.manual__lift-list {
+    display: flex;
+}
+
+.manual__lift-item {
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 188px;
+}
+
+.manual__lift-item-count {
+    font-weight: 700;
+    font-size: 16px;
+    min-height: 45px;
+}
+
+.manual__lift-item-count span {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #686868;
+}
+
+.manual__lift-item-price {
+    text-transform: uppercase;
+    background: linear-gradient(#9D94FF, #6B50E9);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.manual__lift-item-time {
+    font-weight: 500;
+    color: #7A7F86;
+}
+
+.manual__lift-item-link {
+    width: 81px;
+    padding: 10px 15px;
+    border-radius: 17px;
+    background-color: #FFFBEE;
+    color: #FEC100;
+    text-align: center;
+
+}
+
+// sale
+
+.manual__sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F5FA;
+}
+
+.manual__sale-list {
+    display: flex;
+}
+
+.manual__sale-list li {
+    border-radius: 10px;
+    width: 407px;
+}
+
+.manual__sale-item-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.manual__sale-item-text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.manual__sale-item-text span {
+    position: relative;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+// manual
+
+.manual__sale-manual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(102, 78, 249, 0.05);
+}
+
+.manual__sale-manual-list li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 844px;
+}
+
+// manual-sale
+
+.manual__sale-text {
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.manual__sale-text a {
+    color: #664EF9;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    border-bottom: 1px solid #664EF9;
+}
+
+.manual__sale-contacts-item {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: rgba(78, 100, 249, 0.1);
+
+    }
+}
+
+.manual__sale-contacts-item a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #664EF9;
+    display: block;
+}
+
+.manual__sale-contacts-item span {
+    font-style: italic;
+    color: #1E2123;
+}
+
+.manual__sale-contacts {
+    display: flex;
+    width: 844px;
+    justify-content: space-between;
+}
