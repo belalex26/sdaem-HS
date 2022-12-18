@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function Tabs({...props}) {
+
     const [activeTabs, setActiveTabs] = useState(1);
     
     const toggleTabs = (index: number) => {
@@ -18,8 +19,8 @@ function Tabs({...props}) {
                 </div>
                 <div className="tabs__content">
                     <div className={props.activeTabs === 1 ? "tabs__content-item tabs__content-item--active" : "tabs__content-item"} id="specifications">
-                        
                     </div>
+
                     <div className={props.activeTabs === 2 ? "tabs__content-item tabs__content-item--active" : "tabs__content-item"} id="reviews">
                         
                     </div>
