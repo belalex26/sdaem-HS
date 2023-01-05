@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-
 import News from "../pages/news/news";
 import NotPage from "../pages/not-page/not-page";
 import Main from "../pages/main/main";
@@ -20,7 +19,7 @@ function App() {
         <Route path='/catalog' element={<Catalog/>} />
         <Route path='/manual' element={<Manual/>} />
         <Route path='/contacts' element={<Contacts/>} />
-        <Route path='/detail' element={<NewsDetail/>} />
+        <Route path='news/:id' element={<NewsDetail/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='*' element={<NotPage/>} />
       </Routes>
