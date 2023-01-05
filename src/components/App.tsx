@@ -17,7 +17,7 @@ function App() {
         <Route path='/main' element={<Main/>} />
         <Route path='/catalog' element={<Catalog/>} />
         <Route path='/contacts' element={<Contacts/>} />
-        <Route path='/:id' element={<NewsDetail/>} />
+        <Route path='news/:id' element={<NewsDetail/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='*' element={<NotPage/>} />
       </Routes>

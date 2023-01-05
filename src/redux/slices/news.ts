@@ -1,8 +1,19 @@
 import {createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from '../../axios';
 
+type News = {
+  id: number,
+  title: string,
+  text: string,
+  preview: string,
+  date: string,
+  img: string,
+  img2x: string
+  
+}
+
 interface NewsState {
-    news: []
+    news: News[]
     loading: boolean,
     error: string
   }
