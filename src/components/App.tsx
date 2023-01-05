@@ -8,14 +8,16 @@ import Catalog from "../pages/catalog/catalog";
 import Contacts from "../pages/contacts/contacts";
 import NewsDetail from "../pages/news-detail/news-detail";
 import Login from "../pages/login/login";
+import Manual from "../pages/manual/manual";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='' element={<News/>} />
+        <Route path='' element={<Manual/>} />
         <Route path='/main' element={<Main/>} />
         <Route path='/catalog' element={<Catalog/>} />
+        <Route path='/manual' element={<Manual/>} />
         <Route path='/contacts' element={<Contacts/>} />
         <Route path='news/:id' element={<NewsDetail/>} />
         <Route path='/login' element={<Login/>} />

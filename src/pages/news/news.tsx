@@ -45,7 +45,6 @@ const News = () => {
       </ul>
     </div>
     </MainLayout>
-
   );
 }
 
