@@ -6,6 +6,7 @@ type News = {
   title: string,
   text: string,
   preview: string,
+  imgPrev: string,
   date: string,
   img: string,
   img2x: string
