@@ -17,7 +17,7 @@
 .header__menu {
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: baseline;
 }
 
 .header__menu-list {
@@ -34,6 +34,14 @@
 .header__menu-link {
     color: #8291A3;
     padding: 5px;
+}
+
+.header__menu-like {
+    margin-right: 20px;
+}
+
+.header__menu-like svg {
+    margin-left: 10px;
 }
 
 .header__menu-like svg path {
@@ -68,4 +76,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 92px;
+}
+
+.header__menu-bar {
+    margin-left: 50px;
 }
