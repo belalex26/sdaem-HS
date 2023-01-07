@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-import { useAppDispatch, useAppSelector} from '../../hook';
+import { useAppDispatch, useAppSelector} from '../../hooks/redux-hook';
 
+import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { fetchNews } from '../../redux/slices/news';
 import MainLayout from '../../components/main-layout/main-layout'
 import { Link } from 'react-router-dom';
@@ -12,12 +13,16 @@ const News = () => {
   const dispatch = useAppDispatch()
   const news = useAppSelector(state => state.news.news)
   const isLoaded = useAppSelector(state => state.news.loading)
+  const [item, setItem] = useLocalStorage(0, 'id')
 
   useEffect(() => {
     dispatch(fetchNews())
   }, [])
 
-  console.log(typeof news)
+  const addToId = (id:number) => {
+    console.log(id)
+    return (setItem(id))
+  }
 
   if (!isLoaded) {
     return <MainLayout>
@@ -47,7 +52,7 @@ const News = () => {
                 <p className="news__item-preview">{item.preview}</p>
                 <div className="news__item-content">
                   <p className="news__item-date">{item.date}</p>
-                  <Link className="news__item-link" to={`news/:${item.id}`}>Читать</Link>
+                  <Link className="news__item-link" to={`news/:${item.id}`} onClick={() => setItem(item.id, 'id')}>Читать</Link>
                 </div>
             </li>
           )}
