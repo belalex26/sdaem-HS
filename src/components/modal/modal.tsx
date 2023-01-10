@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import PropTypes from "prop-types";
 
 export const body = document.querySelector('.body') as HTMLElement;
 export const ESC_PRESS = 27;
@@ -44,6 +45,11 @@ const Modal = ({...props}) => {
       </div>
     </div>
   );
+};
+
+Modal.propTypes = {
+  modalActive: PropTypes.bool,
+  onModalActive: PropTypes.func,
 };
 
 
