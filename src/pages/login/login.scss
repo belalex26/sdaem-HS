@@ -1,0 +1,216 @@
+.login {
+    width: 100vw;
+    min-height: 100vh;
+    background: url("../../assets/img/BG\ 1920.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login__content {
+    background: #FFFEFE;
+    box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 406px;
+    min-height: 536px;
+    margin: 0 auto;
+    margin-top: 109px;
+    box-sizing: border-box;
+}
+
+.login__title {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.login__text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #686868;
+    width: 64%;
+}
+
+.login__info {
+    width: 300px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.login__form {
+    padding: 0 50px;
+    padding-top: 22px;
+}
+
+.login__label {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login__label svg {
+    position: absolute;
+    top: 14px;
+    left: 19px;
+}
+
+.login__label svg path {
+    fill: #686868;
+}
+
+.login__input {
+    width: 306px;
+    padding: 15px 20px 15px 54px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: #f7f7f7;
+    border: 2px solid transparent;
+
+    &::-webkit-input-placeholder,
+    &::-moz-placeholder  
+    &:-ms-input-placeholder,
+    &::placeholder {
+        color: #686868;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: #fff;
+        border: 2px solid rgba(78, 100, 249, 0.8);
+        outline: none;
+
+        &::placeholder {
+            color: #1e2123;
+        }
+    }
+}
+
+.login__input:active + svg path,
+.login__input:focus + svg path,
+.login__input:hover + svg path {
+    fill: #664EF9;
+}
+
+.login__input:nth-of-type(2) {
+    margin-bottom: 17px;
+}
+
+.login__wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.login__checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.login__checkbox-toggle-input {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 34px;
+    height: 20px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    background-color: #bdbdbd;
+    opacity: 0.3;
+    box-sizing: border-box;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+        top: 9%;
+        left: 5%;
+        border-radius: 50%;
+    }
+
+    &:checked {
+        background-color: #fff;
+        border: 2px solid rgba(78, 100, 249, 0.8);
+        opacity: 1;
+
+        &::before {
+            left: 53%;
+            background-color: rgba(78, 100, 249, 0.8);
+        }
+
+    }
+}
+
+.login__checkbox-toggle-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+}
+
+.login__reset {
+    color: #664ef9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 37px;
+}
+
+.login__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.login__btn {
+    width: 306px;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 33px;
+    background: #ffd54f;
+    color: #1e2123;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 37px;
+
+    &:active,
+    &:focus,
+    &:hover {
+        outline: none;
+        background: #fec100;
+        color: #1e2123;
+    }
+}
+
+.login__singIn {
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+}
+
+.login__singIт-link {
+    color: #664EF9;
+}

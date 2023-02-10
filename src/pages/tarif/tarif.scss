@@ -1,0 +1,682 @@
+.tarif__hero {
+    background: url("../../assets/img/BG_3\ 1920.png") no-repeat top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarif__hero-breadcrumps {
+    margin-top: 62px;
+    margin-bottom: 0;
+}
+
+.tarif__hero-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 17px;
+}
+
+.tarif__about {
+    padding-top: 75px;
+}
+
+.tarif__about-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 178px;
+}
+
+.tarif__about-reg-title {
+    position: relative;
+    padding-left: 74px;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 252px;
+        height: 450px;
+        background: url("../../assets/img/phone.png") no-repeat center top;
+        top: -82px;
+        left: -223px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "1";
+        width: 133px;
+        height: 298px;
+        font-size: 410px;
+        top: -209px;
+        left: -328px;
+        color: #F0F0F0;
+    }
+}
+
+.tarif__about-reg-text {
+    width: 28%;
+    margin-left: 318px;
+    line-height: 22px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.tarif__about-reg-btn {
+    background-color: #664EF9;
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    margin-left: 134px;
+    margin-top: 37px;
+}
+
+.tarif__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tarif__title--black {
+    color: #1E2123;
+    font-size: 25px;
+}
+
+.tarif__text {
+    font-size: 14px;
+}
+
+.tarif__text span {
+    font-weight: 700;
+}
+
+.tarif__about-wrap {
+    background: linear-gradient(270deg, #7E6AF3 0%, #6540CD 100%);
+    padding-bottom: 90px;
+}
+
+.tarif__about-free {
+    padding-left: 190px;
+    padding-top: 120px;
+    padding-bottom: 148px;
+}
+
+.tarif__about-free-title {
+    margin-bottom: 0;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 70px;
+        height: 70px;
+        background: url("../../assets/img/dots.png") no-repeat center top;
+        top: -24px;
+        left: -114px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "2";
+        width: 133px;
+        height: 298px;
+        font-size: 498px;
+        top: -167px;
+        left: -107px;
+        color: #F0F0F0;
+        opacity: 0.05;
+    }
+}
+
+.tarif__about-free-text {
+    position: relative;
+    font-size: 14px;
+    margin-top: 36px;
+    margin-bottom: 0;
+    letter-spacing: -0.9px;
+    color: #fff;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 802px;
+        height: 632px;
+        background: url("../../assets/img/pad.png") no-repeat center top;
+        top: -135px;
+        left: 439px;
+    
+    }
+}
+
+.tarif__about-free-list {
+    color: #fff;
+    list-style: circle;
+    width: 471px;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    margin-top: 21px;
+}
+
+.tarif__about-free-item {
+    margin-bottom: 23px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+}
+
+.tarif__about-free-item span {
+    font-weight: 700;
+}
+
+.tarif__about-gold {
+    padding-left: 190px;
+    padding-right: 190px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.tarif__about-gold-img {
+    grid-column-end: 1;
+    grid-column-end: 2;
+    margin-top: -177px;
+}
+
+.tarif__about-gold-title {
+    position: relative;
+    margin-top: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 180px;
+    padding-left: 45px;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 70px;
+        height: 70px;
+        background: url("../../assets/img/dots.png") no-repeat center top;
+        top: -24px;
+        right: -114px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "3";
+        width: 133px;
+        height: 298px;
+        font-size: 498px;
+        top: -94px;
+        left: -136px;
+        color: #F0F0F0;
+        opacity: 0.05;
+    }
+}
+
+.tarif__about-gold-list {
+    width: 500px;
+    padding-left: 45px;
+    margin-top: 11px;
+}
+
+.tarif__about-gold-item {
+    margin-bottom: 20px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.tarif__about-top {
+    padding-left: 190px;
+    display: grid;
+    grid-template-columns: 554px 628px;
+    grid-template-rows: 223px auto;
+}
+
+.tarif__about-top-title {
+    position: relative;
+    margin-top: 175px;
+    padding-left: 89px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: 0;
+
+    &::before {
+        position: absolute;
+        content: "4";
+        width: 133px;
+        height: 298px;
+        font-size: 498px;
+        top: -239px;
+        left: -32px;
+        color: #F0F0F0;
+        opacity: 0.05;
+    }
+}
+
+.tarif__about-top-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 470px;
+    padding-left: 89px;
+}
+
+.tarif__about-top-img {
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 7px;
+    margin-left: 67px;
+}
+
+.tarif__about-top-item {
+    margin-bottom: 20px;
+    line-height: 21px;
+    letter-spacing: 0.05px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.tarif__contacts {
+    padding-left: 296px;
+    padding-top: 44px;
+    padding-bottom: 64px;
+}
+
+.tarif__contacts-title {
+    margin-bottom: 0;
+}
+
+.tarif__contacts-text {
+    font-size: 14px;
+    width: 338px;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.tarif__contacts-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-left: 82px;
+    padding-top: 34px;
+
+}
+
+.tarif__contacts-link {
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: rgba(78, 100, 249, 0.1);
+        top: -3px;
+        left: -80px;
+    }
+}
+
+.tarif__contacts-link--phone {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background: url("../../assets/img/phone-icon.svg") no-repeat center;
+        top: -3px;
+        left: -80px;
+    }
+}
+
+.tarif__contacts-link--mail {
+
+    padding-left: 16px;
+    margin-top: -6px;
+
+    &::before {
+        top: -18px;
+        left: -64px;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background: url("../../assets/img/mail-icon.svg") no-repeat center;
+        top: -17px;
+        left: -64px;
+    }
+}
+
+.tarif__contacts-link-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-style: italic;
+    margin-top: 9px;
+    font-size: 16px;
+}
+
+.tarif__price {
+    background: linear-gradient(90deg, #F4F6FF 0%, #EDEFFE 94.5%);
+    padding-bottom: 42px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tarif__price-title {
+    margin-top: 0;
+    padding-top: 66px;
+}
+
+.tarif__price-wrap {
+    display: flex;
+    gap: 42px;
+    margin-top: 3px;
+}
+
+.tarif__pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarif__pay-info {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 84px;
+    margin-bottom: 17px;
+}
+
+.tarif__pay-check {
+    position: relative;
+    padding-bottom: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+        position: absolute;
+        content: "1";
+        width: 133px;
+        height: 298px;
+        font-size: 234px;
+        top: 115px;
+        left: 189px;
+        color: rgba(102, 78, 249, 0.05);
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 209px;
+        height: 134px;
+        top: 214px;
+        right: 166px;
+        background: url("../../assets/img/erip-icon.svg") no-repeat center;
+    }
+}
+
+
+.tarif__pay-methods-title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 37px;
+    margin-bottom: 24px;
+    letter-spacing: -0.8px;
+}
+
+.tarif__pay-methods-text {
+    width: 86%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    letter-spacing: 0.57px;
+    line-height: 21px;
+}
+
+.tarif__pay-methods-text span {
+    font-weight: 700;
+}
+
+.tarif__pay-methods {
+    box-sizing: border-box;
+    padding: 0 298px;
+    
+}
+
+.tarif__pay-methods-list {
+    display: flex;
+    gap: 10;
+    margin-top: 56px;
+    counter-reset: myCounter;
+    padding-left: 0;
+}
+
+.tarif__pay-methods-item {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 26px rgba(39, 95, 158, 0.1);
+    border-radius: 10px;
+    margin-right: 29px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #E1DCFF;
+        box-shadow: 0px 8px 17px rgba(39, 95, 158, 0.15);
+        top: -23px;
+        left: 0;
+    }
+
+    &::after {
+        position: absolute;
+        counter-increment: myCounter;
+        content: counter(myCounter);
+        width: 50px;
+        height: 50px;
+        top: -11px;
+        left: 0;
+        font-weight: 800;
+        color: #664EF9;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+}
+
+.tarif__pay-methods-item span {
+    font-weight: 700;
+}
+
+.tarif__pay-methods-item:nth-of-type(1) span {
+    display: block;
+    margin-top: 52px;
+    padding-left: 24px;
+    letter-spacing: -1.3px;
+}
+
+.tarif__pay-methods-item:nth-of-type(2) {
+    width: 153px;
+    padding-left: 25px;
+    padding-top: 49px;
+    letter-spacing: -1px;
+    padding-right: 10px;
+    line-height: 21px;
+}
+
+.tarif__pay-methods-item:nth-of-type(3) {
+    width: 153px;
+    padding-left: 19px;
+    padding-top: 49px;
+    letter-spacing: -1px;
+    padding-right: 19px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.tarif__pay-methods-sublist {
+    width: 252px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 24px 31px 24px;
+}
+
+.tarif__pay-methods-subItem {
+    position: relative;
+    padding-left: 21px;
+    line-height: 20px;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background: url("../../assets/img/arrow-icon.svg") no-repeat center;
+        top: -1px;
+        left: -3px;
+    }
+}
+
+.tarif__pay-methods-intro {
+    margin-top: 41px;
+}
+
+.tarif__pay-check .tarif__pay-methods-text {
+    margin-bottom: 40px;
+}
+
+.tarif__pay-card {
+    padding-top: 47px;
+    padding-bottom: 65px;
+    position: relative;
+    background-color: #F3F2FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+        position: absolute;
+        content: "2";
+        width: 133px;
+        height: 298px;
+        font-size: 234px;
+        top: 22px;
+        left: 136px;
+        color: rgba(102, 78, 249, 0.05);
+    }
+}
+
+.tarif__pay-card .tarif__pay-methods-title {
+    margin-left: -310px;
+    width: 37%;
+    line-height: 29px;
+    letter-spacing: 0.05px;
+    margin-bottom: 8px;
+}
+
+.tarif__pay-card .tarif__pay-methods-text {
+    width: 59%;
+    margin-bottom: 0;
+}
+
+.tarif__pay-card .pay-list {
+    position: absolute;
+    flex-wrap: wrap;
+    width: 600px;
+    right: 3px;
+    top: 76px;
+}
+
+.tarif__pay-card .pay-list li {
+    margin-right: 50px;
+}
+
+
+.tarif__pay-card .pay-list li img {
+    width: 90px;
+}
+
+.tarif__pay-card .pay-list li:nth-of-type(2) img {
+    width: 150px;
+}
+
+.tarif__pay-card  .tarif__pay-methods-list {
+    margin-left: 136px;
+    margin-top: 45px;
+}
+
+.tarif__pay-card  .tarif__pay-methods-list li {
+    width: 298px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+}
+
+.tarif__pay-card  .tarif__pay-methods-list .tarif__pay-methods-item:nth-of-type(1) {
+    padding-left: 42px;
+}
+
+.tarif__pay-card  .tarif__pay-methods-list .tarif__pay-methods-item:nth-of-type(2) {
+    padding-left: 42px;
+    padding-top: 55px;
+    padding-bottom: 36px;
+}
+
+.tarif__pay-card  .tarif__pay-methods-list .tarif__pay-methods-item:nth-of-type(3) {
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 22px;
+}
+
+.tarif__pay-card-wrap {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 110px;
+    margin-top: 9px;
+}
+
+.tarif__pay-card-wrap div {
+    font-size: 14px;
+    width: 406px;
+}
+
+.tarif__pay-card-wrap div p {
+    margin-bottom: 31px;
+    line-height: 21px;
+}
+
+.tarif__pay-card-wrap div p span {
+    font-weight: 700;
+}
+
+.tarif__pay-card-left-col {
+    margin-right: 136px;
+}

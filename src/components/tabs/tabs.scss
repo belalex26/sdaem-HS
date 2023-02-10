@@ -1,0 +1,32 @@
+.tabs__triggers-item {
+    padding: 13px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: rgba(45, 57, 136, 0.5);
+
+}
+
+.tabs__triggers-item:nth-of-type(4) {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.tabs__triggers-item.tabs__triggers-item--active {
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    color: #664EF9;
+}
+
+.tabs__content-item {
+    display: none;
+    background: #FFFFFF;
+}
+
+.tabs__content-item--active {
+    display: block;
+    margin-top: 12px;
+    width: 1062px;
+    height: 100px;
+    border-radius: 0 10px 10px 10px;
+}
